@@ -15,8 +15,8 @@ c = str(a*b)
 send.send(c)
 pr(f'{C.CYAN}{result}')
 while True:
-    paswd = input(C.YELLOW+"Enter The Password: ")
     try:
+        paswd = input(C.YELLOW+"Enter The Password: ")
         if paswd == c:
             a = pyfiglet.figlet_format("Welcom", font = "banner3-D")
             pr(f"{C.GREEN}{a}")
