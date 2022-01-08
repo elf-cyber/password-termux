@@ -25,6 +25,7 @@ while True:
             f = pyfiglet.figlet_format("127.0.0.1", font = "banner3-D")
             pr(f'{C.LIGHTMAGENTA_EX}{f}')
             sys.exit()
+            break
         else:
             pr(f"{C.RED}Error Password Not Found..!\n")
             
